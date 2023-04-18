@@ -15,7 +15,7 @@ EditorBuildSettings:
     path: Assets/Scenes/compRoom.unity
     guid: 2e43f32e36f108c40ac71974af2b9e66
   - enabled: 0
-    path: Assets/Scenes/miniGame1.unity
+    path: Assets/Scenes/catchPhraseGame.unity
     guid: 198f5aa096dcb344c89fce17a128f290
   - enabled: 1
     path: Assets/Scenes/miniGame2.unity
