@@ -33,7 +33,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MiniGames2/catchPhraseGame2.unity
     guid: de5760bfc661f02459c0e3fbcdd64159
   - enabled: 1
-    path: Assets/Scenes/MiniGames2/Quiz 2.unity
+    path: Assets/Scenes/MiniGames1/Quiz 1.unity
     guid: 70029a9849669c74c80f08ebcf4d51c7
   - enabled: 1
     path: Assets/Scenes/CompRooms/compRoom3.unity
