@@ -15,10 +15,10 @@ EditorBuildSettings:
     path: Assets/Scenes/compRoom.unity
     guid: 2e43f32e36f108c40ac71974af2b9e66
   - enabled: 0
-    path: Assets/Scenes/Catch Phrase/catchPhraseGame.unity
+    path: Assets/Scenes/MiniGames1/catchPhraseGame.unity
     guid: 198f5aa096dcb344c89fce17a128f290
   - enabled: 1
-    path: Assets/Scenes/Card Game/CardGame.unity
+    path: Assets/Scenes/MiniGames1/CardGame.unity
     guid: a14bcaf2b9ff15c4a8d46448ad8102ec
   - enabled: 1
     path: Assets/Scenes/bossHall.unity
