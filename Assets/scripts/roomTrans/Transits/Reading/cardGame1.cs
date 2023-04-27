@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class roomTrans : MonoBehaviour
+public class cardGame1 : MonoBehaviour
 {
     public void OnMouseDown()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(4);
     }
 }
