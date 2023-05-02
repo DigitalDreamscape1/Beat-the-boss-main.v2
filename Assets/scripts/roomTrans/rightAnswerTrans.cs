@@ -6,13 +6,24 @@ using UnityEngine.SceneManagement;
 public class rightAnswerTrans : MonoBehaviour
 {
     public GameObject submitTrig;
+    public GameObject scoretrigger;
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("RightAnswer"))
+        
+        //if (other.CompareTag("RightAnswer"))
+       // {
+         //   SceneManager.LoadScene("mainHall");
+       // }
+    }
+    private void OntrigerEnter(Collider score)
+    {
+        csvSave addPoint;
+        if (score.CompareTag("RightAnswer"))
         {
-            SceneManager.LoadScene("mainHall");
+            addPoint = FindObjectOfType<csvSave>();
+            addPoint.AddScore();
+            Debug.Log("score + 1");
         }
     }
-
 }

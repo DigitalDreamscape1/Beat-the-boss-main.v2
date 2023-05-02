@@ -8,7 +8,9 @@ public class csvSave : MonoBehaviour
     public int score;
     public void AddScore()
     {
+
         score += 1;
+        Debug.Log(score);
     }
     public void save()
     {
