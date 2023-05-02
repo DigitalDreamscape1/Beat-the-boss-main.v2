@@ -25,6 +25,35 @@ public class Button_2 : MonoBehaviour
             WrongAnswer1.SetActive(false);
         }
 
+
+        if (CorrectAnswer1.activeSelf == true || WrongAnswer1.activeSelf == true)
+        {
+            WrongAnswer2.SetActive(true);
+        }
+        if (CorrectAnswer2.activeSelf == true)
+        {
+            WrongAnswer2.SetActive(false);
+        }
+
+
+        if (CorrectAnswer2.activeSelf == true || WrongAnswer2.activeSelf == true)
+        {
+            CorrectAnswer3.SetActive(true);
+        }
+        if (WrongAnswer3.activeSelf == true)
+        {
+            CorrectAnswer3.SetActive(false);
+        }
+
+
+        if (CorrectAnswer3.activeSelf == true || WrongAnswer3.activeSelf == true)
+        {
+            WrongAnswer4.SetActive(true);
+        }
+        if (CorrectAnswer4.activeSelf == true)
+        {
+            WrongAnswer4.SetActive(false);
+        }
     }
 
     // Update is called once per frame
