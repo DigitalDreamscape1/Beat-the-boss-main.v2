@@ -8,7 +8,7 @@ public class mainMenu : MonoBehaviour
     public string sInput;
     public void CheckUsername(string s)
     {
-        sInput = s;
+        
         Debug.Log(s);
         Debug.Log(sInput);
     }
