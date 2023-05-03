@@ -20,9 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MiniGames1/CardGame1.unity
     guid: a14bcaf2b9ff15c4a8d46448ad8102ec
-  - enabled: 1
-    path: Assets/Scenes/MiniGames1/Quiz 1.unity
-    guid: ea74c535c8bb76a4ba0305dded955029
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/CompRooms/compRoom2.unity
     guid: f198613237e7c11479504eac62409c83
@@ -45,8 +45,8 @@ EditorBuildSettings:
     path: Assets/Scenes/MiniGames3/catchPhraseGame3.unity
     guid: eff71e957ed6e6c429749748a35fe75c
   - enabled: 1
-    path: Assets/Scenes/MiniGames3/Quiz 3.unity
-    guid: 871a52d30ae028f4c844515e6d52bc56
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/bossHall.unity
     guid: bebe26af88b1a13488d98aaf752ff0b7
