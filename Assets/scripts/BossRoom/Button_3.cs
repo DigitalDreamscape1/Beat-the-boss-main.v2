@@ -15,7 +15,7 @@ public class Button_3 : MonoBehaviour
     public GameObject WrongAnswer4;
     public void OnMouseDown()
     {
-        Debug.Log("button 1 pressed");
+        Debug.Log("button 3 pressed");
         if (WrongAnswer1.activeSelf == false)
         {
             WrongAnswer1.SetActive(true);
