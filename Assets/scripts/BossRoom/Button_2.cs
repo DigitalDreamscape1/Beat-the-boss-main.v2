@@ -15,7 +15,7 @@ public class Button_2 : MonoBehaviour
     public GameObject CorrectAnswer4;
     public void OnMouseDown()
     {
-        Debug.Log("button 2 pressed");
+        Debug.Log("button 1 pressed");
         if (WrongAnswer1.activeSelf == false)
         {
            WrongAnswer1.SetActive(true);
@@ -25,35 +25,6 @@ public class Button_2 : MonoBehaviour
             WrongAnswer1.SetActive(false);
         }
 
-
-        if (CorrectAnswer1.activeSelf == true || WrongAnswer1.activeSelf == true)
-        {
-            WrongAnswer2.SetActive(true);
-        }
-        if (CorrectAnswer2.activeSelf == true)
-        {
-            WrongAnswer2.SetActive(false);
-        }
-
-
-        if (CorrectAnswer2.activeSelf == true || WrongAnswer2.activeSelf == true)
-        {
-            CorrectAnswer3.SetActive(true);
-        }
-        if (WrongAnswer3.activeSelf == true)
-        {
-            CorrectAnswer3.SetActive(false);
-        }
-
-
-        if (CorrectAnswer3.activeSelf == true || WrongAnswer3.activeSelf == true)
-        {
-            WrongAnswer4.SetActive(true);
-        }
-        if (CorrectAnswer4.activeSelf == true)
-        {
-            WrongAnswer4.SetActive(false);
-        }
     }
 
     // Update is called once per frame

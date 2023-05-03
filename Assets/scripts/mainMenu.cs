@@ -5,13 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class mainMenu : MonoBehaviour
 {
-    public string sInput;
-    public void CheckUsername(string s)
-    {
-        
-        Debug.Log(s);
-        Debug.Log(sInput);
-    }
     public void PlayGame()
     {
         SceneManager.LoadScene(1);
