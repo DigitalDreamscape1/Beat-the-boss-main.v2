@@ -26,7 +26,6 @@ public class pointsController : MonoBehaviour
 
     public void ScoreUp()
     {
-
         playerScore += 1;
         score.text = playerScore.ToString();
         using (StreamWriter writetext = new StreamWriter("score.txt"))
@@ -64,7 +63,7 @@ public class pointsController : MonoBehaviour
         catch (Exception ex)
         // If an error occurs an error message will show and error will be set to true
         {
-            Dedug.Log("file error ");
+            Debug.Log("file error ");
             Error = true;
         }
 
@@ -122,7 +121,7 @@ public class pointsController : MonoBehaviour
             iCounter += 1;
             //Console.WriteLine("enter username");
             //username[iCounter] = Console.ReadLine();
-            score[iCounter] = playerScore;
+            score[iCounter] = playerScore.ToString();
             //the file is deleted
 
             try
@@ -131,7 +130,7 @@ public class pointsController : MonoBehaviour
             }
             catch (Exception ex)
             {
-                Dubug.Log("file error delete");
+                Debug.Log("file error delete");
                 Error = true;
             }
         }
