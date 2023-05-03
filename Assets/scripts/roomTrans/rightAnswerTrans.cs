@@ -8,13 +8,16 @@ public class rightAnswerTrans : MonoBehaviour
     public GameObject submitTrig;
     public GameObject scoretrigger;
 
+    public GameObject HUD;
+
     private void OnTriggerEnter(Collider other)
     {
         
-        //if (other.CompareTag("RightAnswer"))
-       // {
-         //   SceneManager.LoadScene("mainHall");
-       // }
+        if (other.CompareTag("RightAnswer"))
+        {
+           HUD.GetComponent<pointsController>().ScoreUp();
+           SceneManager.LoadScene("mainHall");
+        }
     }
     private void OntrigerEnter(Collider score)
     {
