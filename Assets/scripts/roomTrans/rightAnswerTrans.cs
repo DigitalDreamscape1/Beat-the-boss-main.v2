@@ -19,7 +19,7 @@ public class rightAnswerTrans : MonoBehaviour
            SceneManager.LoadScene("mainHall");
         }
     }
-    private void OntrigerEnter(Collider score)
+   /* private void OntrigerEnter(Collider score)
     {
         csvSave addPoint;
         if (score.CompareTag("RightAnswer"))
@@ -28,5 +28,5 @@ public class rightAnswerTrans : MonoBehaviour
             addPoint.AddScore();
             Debug.Log("score + 1");
         }
-    }
+    }*/
 }
