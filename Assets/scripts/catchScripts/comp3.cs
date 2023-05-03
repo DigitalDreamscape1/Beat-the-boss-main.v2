@@ -3,11 +3,8 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.UI;
 
-
-[RequireComponent(typeof(InputField))]
-public class compareAnswer : MonoBehaviour
+public class comp3 : MonoBehaviour
 {
     public TMP_InputField input;
 
@@ -19,16 +16,16 @@ public class compareAnswer : MonoBehaviour
         input.onEndEdit.AddListener(Answer);
     }
 
-    private void Answer(string arg0)
+    private void Answer(string arg2)
     {
 
-        if(arg0.ToLower() == "test")
+        if (arg2.ToLower() == "exploitation")
         {
             //HUD.GetComponent<pointsController>().ScoreUp();
             SceneManager.LoadScene(1);
             Debug.Log("correct");
         }
 
-        Debug.Log(arg0);
+        Debug.Log(arg2);
     }
 }
