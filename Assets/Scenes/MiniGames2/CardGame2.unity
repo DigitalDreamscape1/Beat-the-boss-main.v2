@@ -958,7 +958,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 07cf931de487a7d49b910d816cca55ae, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1016,6 +1016,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   submitTrig: {fileID: 215607688}
+  scoretrigger: {fileID: 0}
+  HUD: {fileID: 0}
 --- !u!1 &680623645
 GameObject:
   m_ObjectHideFlags: 0
@@ -1546,8 +1548,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279900893
-  m_fontColor: {r: 0.8679245, g: 0.10234957, b: 0.10234957, a: 1}
+    rgba: 4292056358
+  m_fontColor: {r: 0.14901961, g: 0.58431375, b: 0.827451, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -1899,8 +1901,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279900893
-  m_fontColor: {r: 0.8679245, g: 0.10234957, b: 0.10234957, a: 1}
+    rgba: 4292056358
+  m_fontColor: {r: 0.14901961, g: 0.58431375, b: 0.827451, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -2053,8 +2055,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279900893
-  m_fontColor: {r: 0.8679245, g: 0.10234957, b: 0.10234957, a: 1}
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3165,8 +3167,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279900893
-  m_fontColor: {r: 0.8679245, g: 0.10234957, b: 0.10234957, a: 1}
+    rgba: 4292056358
+  m_fontColor: {r: 0.14901961, g: 0.58431375, b: 0.827451, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3744,8 +3746,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279900893
-  m_fontColor: {r: 0.8679245, g: 0.10234957, b: 0.10234957, a: 1}
+    rgba: 4292056358
+  m_fontColor: {r: 0.14901961, g: 0.58431375, b: 0.827451, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -3918,8 +3920,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279900893
-  m_fontColor: {r: 0.8679245, g: 0.10234957, b: 0.10234957, a: 1}
+    rgba: 4292056358
+  m_fontColor: {r: 0.14901961, g: 0.58431375, b: 0.827451, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
