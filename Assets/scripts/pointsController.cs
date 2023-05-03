@@ -34,4 +34,14 @@ public class pointsController : MonoBehaviour
             writetext.WriteLine(playerScore);
         }
     }
+
+    public void ResetScore()
+    {
+        playerScore = 0;
+        score.text = playerScore.ToString();
+        using (StreamWriter writetext = new StreamWriter("score.txt"))
+        {
+            writetext.WriteLine(playerScore);
+        }
+    }
 }

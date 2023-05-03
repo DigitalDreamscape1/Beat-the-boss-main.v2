@@ -44,12 +44,9 @@ public class Login : MonoBehaviour
         foreach (var i in credentials)
         {
             string line = i.ToString();
-            //Debug.Log(line);
-            //Debug.Log(line.substring(11));
-            //substring 0-indexof(:0 - indexof(:)+1 - i.Length-1
 
-            if (i.ToString().Substring(0, i.ToString().IndexOf(":")).Equals(usernameInput.text) &&
-                i.ToString().Substring(i.ToString().IndexOf(":") + 1).Equals(passwordInput.text))
+
+            if (i.ToString().Substring(0, i.ToString().IndexOf(":")).Equals(usernameInput.text) && i.ToString().Substring(i.ToString().IndexOf(":") + 1).Equals(passwordInput.text))
             {
                 isExists = true;
                 break;

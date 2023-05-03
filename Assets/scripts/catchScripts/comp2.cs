@@ -24,6 +24,8 @@ public class comp2 : MonoBehaviour
             //HUD.GetComponent<pointsController>().ScoreUp();
             SceneManager.LoadScene(1);
             Debug.Log("correct");
+
+
         }
 
         Debug.Log(arg1);
