@@ -5,21 +5,28 @@ using UnityEngine.UI;
 
 public class QuizManager : MonoBehaviour
 {
-    public List <QuestionjAndAnswer> QnA;
+    public List <QuestionAndAnswer> QnA;
     public GameObject[] options;
     public int CurrentQuestion;
 
     public Text QuestionTxt;
 
+    public int trigger_counter = 0;
 
     public void Start()
     {
-        QnA.RemoveAt(CurrentQuestion);
+        trigger_counter++;
+        if (trigger_counter != 1)
+        {
+            QnA.RemoveAt(CurrentQuestion);
+        }
         generateQuestion();
     }
 
     public void Correct()
     {
+        Debug.Log("Count: " + QnA.Count + "  | Current: " + CurrentQuestion);
+        QnA.RemoveAt(CurrentQuestion);
         generateQuestion();
     }
     void SetAnswewrs()
@@ -38,10 +45,18 @@ public class QuizManager : MonoBehaviour
 
     void generateQuestion()
     {
-        CurrentQuestion = Random.Range(0, QnA.Count);
+        if (QnA.Count > 0)
+        {
+            CurrentQuestion = Random.Range(0, QnA.Count);
 
-        QuestionTxt.text = QnA[CurrentQuestion].Question;
-        SetAnswewrs(); 
+            QuestionTxt.text = QnA[CurrentQuestion].Question;
+            SetAnswewrs();
+        }
+        else
+        {
+            Debug.Log("out of questions");
+        }
+        
 
        
     }
