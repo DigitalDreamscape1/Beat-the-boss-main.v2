@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class QuizManager : MonoBehaviour
 {
@@ -55,6 +56,7 @@ public class QuizManager : MonoBehaviour
         else
         {
             Debug.Log("out of questions");
+            SceneManager.LoadScene(1);
         }
         
 
