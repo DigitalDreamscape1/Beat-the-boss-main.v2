@@ -19,7 +19,7 @@ public class comp2 : MonoBehaviour
     private void Answer(string arg1)
     {
 
-        if (arg1.ToLower() == "cyber bullying")
+        if (arg1.ToLower() == "cyberbullying")
         {
             //HUD.GetComponent<pointsController>().ScoreUp();
             SceneManager.LoadScene(1);
