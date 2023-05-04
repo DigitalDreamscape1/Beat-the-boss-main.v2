@@ -571,29 +571,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   QnA:
-  - Question: 1+1
+  - Question: 'What do you do if you see someone getting bullied in the work place '
     Answers:
-    - 2
-    - 3
-    - 1
+    - ignore it
+    - Take the bully on
+    - Report it to the boss
     CorrectAnswer: 1
-  - Question: 2+2
+  - Question: What dose the rule of law mean
     Answers:
-    - 6
-    - 8
-    - 4
+    - The law dosnt protect anyone
+    - The  law only applies to the working class
+    - 'The law is fair and applies to everyone '
     CorrectAnswer: 3
-  - Question: 3+3
+  - Question: What is the purpose of safeguarding
     Answers:
-    - 4
-    - 5
-    - 6
+    - To protect eveyone
+    - To protect the rich
+    - To protect the Vulnerable
     CorrectAnswer: 3
-  - Question: 5+5
+  - Question: Where is bullying the most problamatic
     Answers:
-    - 12
-    - 10
-    - 11
+    - at schools
+    - Online
+    - 'In the work place '
     CorrectAnswer: 2
   options:
   - {fileID: 887160262}
@@ -3953,8 +3953,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 44.16, y: -6.4}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 62.6, y: -6.4}
+  m_SizeDelta: {x: 215.76, y: 70.3}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1873359974
 MonoBehaviour:
@@ -3978,7 +3978,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 15
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 0
